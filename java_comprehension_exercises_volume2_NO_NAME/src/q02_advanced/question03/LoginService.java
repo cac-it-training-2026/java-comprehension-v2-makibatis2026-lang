@@ -11,4 +11,19 @@ class LoginService {
 	private MemberStorage memberStorage;
 
 	//TODO ここから処理を記述
+	/**
+	 * @param memberStorage
+	 */
+	public LoginService(MemberStorage memberStorage) {
+		this.memberStorage = memberStorage;
+	}
+	
+	public Member doLogin(int id, String password) {
+		for (int i = 0; i < memberStorage.getMembers().size(); i++) {
+			if (memberStorage.getMembers().get(i).getId() == id) {
+				memberStorage.getMembers().get(i);
+			}
+		}
+		
+	}
 }
