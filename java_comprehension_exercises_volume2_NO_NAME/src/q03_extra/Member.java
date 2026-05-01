@@ -1,10 +1,7 @@
 package q03_extra;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.xml.crypto.Data;
 
 class Member {
 	private int id;
@@ -143,5 +140,5 @@ class Member {
 //		member.coupons.add(coupon2);
 //		
 //		return member;
-	}
+//	}
 }
