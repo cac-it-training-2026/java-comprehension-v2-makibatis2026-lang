@@ -4,7 +4,6 @@ public class Coupon {
 	private int id;
 	private double discountRate;
 	private String description;
-	
 	/**
 	 * 引数なしコンストラクタ
 	 */
